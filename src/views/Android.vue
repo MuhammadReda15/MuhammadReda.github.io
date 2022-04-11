@@ -8,7 +8,7 @@
             <div class="android-card">
                 <img
                     class="android-img"
-                    src="../assets/Frame 1task1.png"
+                    src="../assets/task1.png"
                     alt="1st Task"
                     width="523"
                     height="339"

@@ -1,9 +1,9 @@
 <template>
     <header>
         <div id="learn">
-            <h2>Learn programming</h2>
+            <h2>Learn Program</h2>
             <br />
-            <h2>Explore more</h2>
+            <h2>Explore</h2>
             <br />
             <h2>Make things</h2>
         </div>

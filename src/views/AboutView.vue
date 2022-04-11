@@ -4,8 +4,8 @@
         <img
             src="../assets/JPEG_20220318_171748_8090_.png"
             alt="Muhammad Reda"
-            width="300"
-            height="300"
+            width="350"
+            height="350"
             class="pict"
         />
         <p class="Haii">
@@ -98,8 +98,8 @@
             <div class="card-body">
                 <h1 class="card-title">2020-now</h1>
                 <p class="card-detail">
-                    Mengambil perkuliahan di Institut Teknologi Bandung dengan
-                    mengambil prodi Teknik Informatika.
+                    Mengambil perkuliahan di UIN SUSKA RIAU dengan mengambil
+                    prodi Teknik Informatika.
                 </p>
             </div>
         </div>

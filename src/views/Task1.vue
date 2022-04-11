@@ -2,7 +2,7 @@
     <div id="task1">
         <p class="detail">Cashier sederhana</p>
         <img
-            src="../assets/tugas1-Muhammad Reda.gif"
+            src="../assets/task1Redha.gif"
             width="350"
             height="700"
             alt="Task1"
