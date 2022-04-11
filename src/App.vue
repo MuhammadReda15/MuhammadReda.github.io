@@ -29,14 +29,14 @@
                         <RouterLink to="/" class="nav-item nav-link"
                             >Home</RouterLink
                         >
+                        <RouterLink to="/Android" class="nav-link"
+                            >Android</RouterLink
+                        >
                         <RouterLink to="/About" class="nav-item nav-link"
                             >About</RouterLink
                         >
                         <RouterLink to="/Contact" class="nav-link"
                             >Contact</RouterLink
-                        >
-                        <RouterLink to="/Android" class="nav-link"
-                            >Android</RouterLink
                         >
                     </div>
                 </div>

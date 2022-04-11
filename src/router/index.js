@@ -27,6 +27,36 @@ const router = createRouter({
             name: "Android",
             component: () => import("../views/Android.vue"),
         },
+        {
+            path: "/Task1",
+            name: "Task1",
+            component: () => import("../views/Task1.vue"),
+        },
+        {
+            path: "/Task2",
+            name: "Task2",
+            component: () => import("../views/Task2.vue"),
+        },
+        {
+            path: "/Task3",
+            name: "Task3",
+            component: () => import("../views/Task3.vue"),
+        },
+        {
+            path: "/Task4",
+            name: "Task4",
+            component: () => import("../views/Task4.vue"),
+        },
+        {
+            path: "/Task5",
+            name: "Task5",
+            component: () => import("../views/Task5.vue"),
+        },
+        {
+            path: "/Task6",
+            name: "Task6",
+            component: () => import("../views/Task6.vue"),
+        },
     ],
 });
 

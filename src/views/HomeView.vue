@@ -23,14 +23,14 @@
 
 <style>
     #Hai {
-        padding: 30px;
+        padding: 20px;
         text-align: center;
         color: white;
         font-size: 18px;
     }
 
     #learn {
-        margin-top: 70px;
+        margin-top: 20px;
         text-align: center;
         color: rgb(255, 255, 255);
         margin-bottom: 40px;
