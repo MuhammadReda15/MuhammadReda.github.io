@@ -5,6 +5,7 @@
             href="../src/assets/fontawesome-free-6.1.1-web/css/all.min.css"
         />
         <link rel="stylesheet" href="../src/assets/style.css" type="text/css" />
+        <link rel="stylesheet" href="../src/assets/nav.css" type="text/css" />
     </head>
     <div id="nav">
         <header>
@@ -26,44 +27,71 @@
                     id="navbarSupportedContent"
                 >
                     <div class="navbar-nav mr-auto">
-                        <RouterLink to="/" class="nav-item nav-link"
+                        <RouterLink
+                            to="/"
+                            class="nav-item nav-link"
+                            id="linkhover"
                             >Home</RouterLink
                         >
-                        <RouterLink to="/Android" class="nav-link"
+                        <RouterLink
+                            to="/Android"
+                            class="nav-link"
+                            id="linkhover"
                             >Android</RouterLink
                         >
-                        <RouterLink to="/About" class="nav-item nav-link"
+                        <RouterLink
+                            to="/About"
+                            class="nav-item nav-link"
+                            id="linkhover"
                             >About</RouterLink
                         >
-                        <RouterLink to="/Contact" class="nav-link"
+                        <RouterLink
+                            to="/Contact"
+                            class="nav-link"
+                            id="linkhover"
                             >Contact</RouterLink
                         >
                     </div>
                 </div>
             </nav>
-            <div class="icon">
-                <ul>
-                    <li>
-                        <a
-                            href="https://www.facebook.com/profile.php?id=100009677568934"
-                            target="_blank"
-                            ><i class="fab fa-facebook-f" id="facebook"></i
-                        ></a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://instagram.com/1xredha?igshid=YmMyMTA2M2Y="
-                            target="_blank"
-                            ><i class="fab fa-instagram" id="instagram"></i
-                        ></a>
-                    </li>
-                </ul>
-            </div>
         </header>
     </div>
     <router-view />
 
-    <footer class="text-center text-white">
+    <footer class="text-center text-white" id="footer">
+        <div class="icon" id="icon">
+            <ul>
+                <li>
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100009677568934"
+                        target="_blank"
+                        ><i class="fab fa-facebook-f" id="facebook"></i
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        href="https://instagram.com/1xredha?igshid=YmMyMTA2M2Y="
+                        target="_blank"
+                        ><i class="fab fa-instagram" id="instagram"></i
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100009677568934"
+                        target="_blank"
+                        ><i class="fab fa-twitter" id="twitter"></i
+                    ></a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100009677568934"
+                        target="_blank"
+                        ><i class="fab fa-github" id="github"></i
+                    ></a>
+                </li>
+            </ul>
+        </div>
+
         <div id="copyright">
             © 2022 Copyright: <strong>Muhammad Reda</strong>
         </div>
@@ -71,7 +99,8 @@
 </template>
 
 <style>
-    footer {
+    #footer {
+        text-align: center;
         padding-top: 40px;
     }
 
@@ -88,28 +117,6 @@
         font-weight: normal;
         background-color: #272c31;
         font-family: "montserrat", sans-serif;
-    }
-
-    #nav {
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-        position: relative;
-    }
-
-    #nav a {
-        font-weight: bold;
-        color: #ffffff;
-    }
-    #nav a i {
-        color: black;
-    }
-
-    #nav a.router-link-exact-active {
-        color: rgb(0, 0, 0);
-        background: rgb(28, 65, 66);
-        border-radius: 0.5rem;
     }
 </style>
 
